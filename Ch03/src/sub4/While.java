@@ -59,15 +59,15 @@ public class While {
 		while(j <= 10) {
 			
 			j++;
-			
-			if( j % 2 == 1 ) {
+			// 홀수합으로 수정 2022-08-18 이왕근
+			if( j % 2 == 0 ) {
 				continue
 			}
 			total += j;
 			
 			
 			
-			System.out.println(:"1부터 10까지 짝수합 :"+total);
+			System.out.println(:"1부터 10까지 홀수합 :"+total);
 		}
 		
 }
