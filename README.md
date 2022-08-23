@@ -12,6 +12,12 @@
 	- sub1. 조건문 if 실습
 	- sub2. 조건문 suitch 실습
 	- sub3. 반복문 for 실습
-	- sub4. 반복문 while 실습# Java
+	- sub4. 반복문 while 실습
+## Ch04. Java 배열과 메서드
+	- sub1. 배열 실습
+	- sub2. 메서드 실습
+	- sub3. 메서드 타입 실습
+	- sub4. 메서드 오버로딩 실습
+	
 # Java
 # Java
