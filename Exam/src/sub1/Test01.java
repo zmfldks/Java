@@ -19,7 +19,7 @@ public class Test01 {
 		boolean var6 = true;
 		boolean var7 = false;
 	    String var8  = "hello";
-		String = null;
+		String var9 = null;
 		
 		System.out.println("var1 :"+var1);
 		System.out.println("var2 :"+var2);

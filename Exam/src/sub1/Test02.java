@@ -17,10 +17,10 @@ public class Test02 {
 		String  name;
 		
 		System.out.print("올해 년도 입력 :");
-		year = sc.nextInt()
+		year = sc.nextInt();
 				
 		System.out.print("태어난 년도 년도 입력 :");
-		birth = sc.nextInt()
+		birth = sc.nextInt();
 				
 		System.out.print("이름 입력 :");
 		 name = sc.next();
