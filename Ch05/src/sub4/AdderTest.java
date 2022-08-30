@@ -16,7 +16,7 @@ class Adder{
 	}
 	
 	private int x;
-	private int y;
+	private static int y;
 	
 	public void add(int x, int y) {
 		this.x += x;
