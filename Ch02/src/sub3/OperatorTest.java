@@ -3,7 +3,7 @@ package sub3;
 /*
  * 날짜 : 2022/08/16
  * 이름 : 이왕근
- * 내용 :  Java 자료형 실습하기
+ * 내용 :  Java 연산자 실습하기
  * 
  * 연산자(operator)
  *  - 변수의 데이터를 처리하기 위한 연산식
@@ -11,7 +11,7 @@ package sub3;
  * 
  * 
  */
-public class dd {
+public class OperatorTest {
  
 	public static void main(String[] args) {
 		
@@ -25,12 +25,14 @@ public class dd {
 		int r2 = num1 - num2;
 		int r3 = num2 * num3;
 		int r4 = num4 / num2;
-		int r5 = num5 % num2; // 나머지를 구하는 연산자
+		int r5 = num4 % num3; // 나머지를 구하는 연산자
 		
-		System.out.println("r1 : "r1);
-		System.out.println("r2 : "r2);
-		System.out.println("r3 : "r3);
-		System.out.println("r4 : "r4);
+		System.out.println("r1 : "+r1);
+		System.out.println("r2 : "+r2);
+		System.out.println("r3 : "+r3);
+		System.out.println("r4 : "+r4);
+		System.out.println("r5 : "+r5);
+		
 		
 		//증감연산자
 		int num = 0;
@@ -46,7 +48,7 @@ public class dd {
 
 		
 		//복합대입연산자
-		int n1 = 1, n2 = 2, n3 = 3, n4 = 4
+		int n1 = 1, n2 = 2, n3 = 3, n4 = 4;
 				
 		n1 += 1; // n1 = n1 + 1
 		n2 -= 2; // n2 = n2 - 2

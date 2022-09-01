@@ -2,7 +2,7 @@ package sub2;
 
 import java.util.Scanner;
 
-public class Switch {
+public class SwitchTest {
 	public static void main(String[] args) {
 		//사용자 입력
 		System.out.print("숫자 입력 : ");

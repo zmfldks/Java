@@ -3,6 +3,10 @@ package sub4;
  * 날짜 : 2022/08/23
  * 이름 : 이왕근
  * 내용 : Java 메서드 오버로딩 실습하기
+ * 
+ * 메서드 오버로딩(Mathod over loading)
+ * - 동일한 이름의 메서드를 매개변수로 구분한 메서드
+ * - 메서드의 변환타입은 오버로딩에 영향을 미치지 않음
  */
 public class MathodOverloading {
 	

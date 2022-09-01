@@ -5,7 +5,7 @@ package sub3;
  * 내용 : 자바 조건문 for 실습하기
  * 
  */
-public class For {
+public class ForTest {
 	public static void main(String[] args) {
 		// for
 				for(int i = 1; i <= 5; i++) {
@@ -28,7 +28,7 @@ public class For {
 				int tot = 0;
 				
 				for(int k=1; k<=10; k++) {
-					if(k가 짝수이면 k % 2 == 0) {
+					if(k % 2 == 0) {
 						tot += k;
 					}
 				}
@@ -42,7 +42,7 @@ public class For {
 					
 					for(int b=1; b<5; b++) {
 						System.out.println("b : "+b);
-						3*5 = 15 디버깅을 함
+						
 								
 					}
 				}

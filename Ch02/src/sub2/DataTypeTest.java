@@ -1,21 +1,21 @@
 package sub2;
 
 /*
- * 날짜 : 20220816
+ * 날짜 : 2022/08/16
  * 이름 : 이왕근
- * 내용 :
+ * 내용 : Java 자료형 실습하기
  * 
  * 자료형(Data Type)
  * - 변수에 저장되는 데이터의 종륭와 크기를 자료형으로 선언
  * - 자료형운 기본형과 참조형으로 나뉨
  * 
  */
-public class data {
-public static void main(String[] args) {
+public class DataTypeTest {
+	public static void main(String[] args) {
 	
 
 	//정수형
-	byte  num = 127;
+	byte  num1 = 127;
 	short num2 = 32767;
 	int   num3 = 2147483647;
 	long  num4 = 922337203685477507L;

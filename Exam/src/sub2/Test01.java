@@ -12,7 +12,7 @@ public class Test01 {
 		char str[] = {'I', ' ', 'L', 'O', 'V', 'E', ' ', 'Y', 'O', 'U'};
 		int row, col;
 		
-		for (row = 1; row <10; row++) {
+		for (row = 1; row < 10; row++) {
 			
 			for(col = 0; col <= row; col++) {
 			
