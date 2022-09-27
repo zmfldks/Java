@@ -19,7 +19,7 @@ public class Test07 {
 		System.out.print("체중(kg) 입력 : ");
 		double weight = sc.nextDouble();
 		
-		double bmi = weight / Math.pow(height, 2);
+		double bmi = weight / Math.pow(height, 2);// weight / (height*height)
 		
 		String result;
 		if(bmi < 20) {
