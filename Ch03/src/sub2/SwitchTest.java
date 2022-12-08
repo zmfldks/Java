@@ -1,7 +1,11 @@
 package sub2;
 
 import java.util.Scanner;
-
+/*
+ * 날짜 : 2022/08/17
+ * 이름 : 이왕근
+ * 내용 : Java 조건문 switch 실습하기
+ */
 public class SwitchTest {
 	public static void main(String[] args) {
 		//사용자 입력

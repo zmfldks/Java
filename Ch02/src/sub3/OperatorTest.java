@@ -74,9 +74,9 @@ public class OperatorTest {
 		System.out.println("rs1 :"+rs1); //var1은 var2보다 크다.
 		System.out.println("rs2 :"+rs2); //var1은 var2보다 크다.
 		System.out.println("rs3 :"+rs3); //var1은 var2보다 크거나 같다.
-		System.out.println("rs4 :"+rs4);//var1은 var2보다 작거나 같다.
-		System.out.println("rs5 :"+rs5);//var1은 var2보다 서로 같다.
-		System.out.println("rs6 :"+rs6);//var1은 var2보다 서로 다르다.
+		System.out.println("rs4 :"+rs4); //var1은 var2보다 작거나 같다.
+		System.out.println("rs5 :"+rs5); //var1은 var2보다 서로 같다.
+		System.out.println("rs6 :"+rs6); //var1은 var2보다 서로 다르다.
 		
 		//논리연산자
 		int var3 = 3;
@@ -85,10 +85,10 @@ public class OperatorTest {
 
 		
 		boolean res1 = (var3 > 3) && (var4 > 3); // var3은 3보다 크고 그리고 var4는 3보다 크다.
-	    boolean res2 = (var3 > 2) && (var4 > 3);// var3은 2보다 크고 그리고 var4는 3보다 크다.
-		boolean res3 = (var3 > 3) || (var4 > 3);// var3은 3보다 크고 또는 var4는 3보다 크다.
-		boolean res4 = (var3 > 4) || (var4 > 5);// var3은 4보다 크고 또는 var4는 5보다 크다.
-		boolean res5 = !(var3 > 4);// var3은 var4는 크지 않다.
+	    boolean res2 = (var3 > 2) && (var4 > 3); // var3은 2보다 크고 그리고 var4는 3보다 크다.
+		boolean res3 = (var3 > 3) || (var4 > 3); // var3은 3보다 크고 또는 var4는 3보다 크다.
+		boolean res4 = (var3 > 4) || (var4 > 5); // var3은 4보다 크고 또는 var4는 5보다 크다.
+		boolean res5 = !(var3 > 4); // var3은 var4는 크지 않다.
 		
 		System.out.println("res1 : "+res1);
 		System.out.println("res2 : "+res2);
