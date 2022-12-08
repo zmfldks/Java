@@ -6,9 +6,15 @@ package sub7;
  */
 
 //익명객체
+interface Tv {
+	public void turnOn();
+	public void turnOff();
+}
+
 public class Test09 {
 	public static void main(String[] args) {
-		Tv tv = new Tv() {
+	
+		Tv tv = new Tv() {			
 			@Override
 			public void turnOn() {
 				System.out.println("Tv를 켭니다.");
@@ -21,6 +27,6 @@ public class Test09 {
 		};
 		
 		tv.turnOn();
-		tv.turnOff();
+		tv.turnOff();		
 	}
 }
